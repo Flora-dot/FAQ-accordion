@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", " Oxygen", "Cantarell", "Open Sans",   "Helvetica Neue", sans-serif;
+    color: #334155;
+}
+
+main{
+    width: 100%;
+    height: 170vh;
+    background-color: #cffafe;
+    padding: 40px;
+}
+
+.faq-section{
+    width: 56%;
+    margin: 40px auto;
+    background-color: #ffffff; 
+    padding:  30px 50px;
+    box-shadow: 0px 4px 8px #d7d8db;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 3px 0 40px 0px;
+}
+
+.accordion{
+    width: 100%;
+    border: 1px solid #d7d8db;
+    margin-bottom: 40px;
+    padding: 12px 25px;
+    box-shadow: 0px 8px 8px #d7d8db;
+}
+
+.accordion-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.accordion-question h6{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+button{
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: #164e63;
+    color: white;
+    border-radius: 50%;
+}
+
+.accordion-answer{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #787777;
+}
+
+.icon{
+    color: #fff;
+}
+.hidden{
+    display: none;
+}
